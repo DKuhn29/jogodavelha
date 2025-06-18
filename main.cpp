@@ -282,7 +282,7 @@ int main(){
                 }
             } 
             else if(mat[0][2] == mat[1][2] && mat[1][2] == mat[2][2]){
-                if(mat[2][1] == 'X'){
+                if(mat[0][2] == 'X'){
                     cout << "Parabéns! Jogador 1 venceu!" << endl;
                     cout << "Deseja reiniciar o jogo? (S/N)" << endl;
                     char resp;
@@ -314,7 +314,7 @@ int main(){
                 }
             }    
             else if(mat[0][0] == mat[1][1] && mat[1][1] == mat[2][2]){
-                if(mat[1][1] == 'X'){
+                if(mat[0][0] == 'X'){
                     cout << "Parabéns! Jogador 1 venceu!" << endl;
                     cout << "Deseja reiniciar o jogo? (S/N)" << endl;
                     char resp;
@@ -346,7 +346,7 @@ int main(){
                 }
             } 
             else if(mat[0][2] == mat[1][1] && mat[1][1] == mat[2][0]){
-                if(mat[2][0] == 'X'){
+                if(mat[0][2] == 'X'){
                     cout << "Parabéns! Jogador 1 venceu!" << endl;
                     cout << "Deseja reiniciar o jogo? (S/N)" << endl;
                     char resp;
